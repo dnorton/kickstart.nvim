@@ -5,7 +5,7 @@ return {
   lazy = false,
   config = function()
     require('catppuccin').setup {
-      flavour = 'mocha',
+      flavour = 'auto',
     }
     require('catppuccin').load()
   end,
